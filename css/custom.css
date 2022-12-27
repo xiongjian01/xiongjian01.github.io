@@ -58,6 +58,7 @@ div#bannerGroup {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5) !important;
   content: '';
+  backdrop-filter: blur(10px) saturate(180%);
 }
 
 #page-header #post-info {
@@ -117,6 +118,11 @@ div#bannerGroup {
 }
 
 /* 归档样式 */
+li.card-archive-list-item {
+  width: 100%;
+  flex: 0 0 48%;
+}
+
 span.card-archive-list-count {
   width: auto;
   text-align: left;
@@ -238,6 +244,8 @@ li.card-archive-list-item {
 .card-widget.card-recent-post {
   padding: 0.4rem 0.6rem !important;
 }
+
+
 
 /* 颜色 */
 :root {
