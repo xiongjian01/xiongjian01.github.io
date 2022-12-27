@@ -325,6 +325,7 @@ a.categoryButton.shiyong {
   font-weight: bold;
   font-size: 0.8rem !important;
   padding: 0 !important;
+  color: var(--font-color)
 }
 
 .recent-post-top .recent-post-item .post_cover img {
