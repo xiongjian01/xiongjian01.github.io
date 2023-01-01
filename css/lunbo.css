@@ -350,8 +350,8 @@ span.recent-post-top-text {
   left: -40px;
   display: flex;
   z-index: 1;
-  background: var(--heo-theme);
-  color: var(--heo-white);
+  background: var(--anzhiyu-theme);
+  color: var(--anzhiyu-white);
   padding: 2px 8px;
   font-size: 0.6rem;
   border-radius: 12px 0 12px 0;

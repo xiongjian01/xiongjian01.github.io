@@ -55,6 +55,7 @@
     margin: auto;
     cursor: url(/img/x2.cur), auto !important;
     white-space: nowrap;
+    font-size: 1rem;
   }
   
   #bbTimeList:hover {
