@@ -2,61 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://i98.cc/posts/20211005.html</loc>
+    
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/posts/20211004.html</loc>
+    
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/posts/20211002.html</loc>
+    
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/posts/202110040.html</loc>
+    
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/posts/20210921.html</loc>
+    
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/posts/20210825.html</loc>
+    
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/posts/20210912.html</loc>
+    
+    <lastmod>2023-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://i98.cc/posts/20210829.html</loc>
-    
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://i98.cc/posts/undefined.html</loc>
-    
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://i98.cc/posts/undefined.html</loc>
-    
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://i98.cc/posts/undefined.html</loc>
-    
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://i98.cc/posts/undefined.html</loc>
-    
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://i98.cc/posts/undefined.html</loc>
-    
-    <lastmod>2023-01-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://i98.cc/posts/undefined.html</loc>
     
     <lastmod>2023-01-01</lastmod>
     
@@ -169,6 +178,55 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://i98.cc/tags/%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/tags/%E6%9D%AD%E5%B7%9E/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/tags/%E5%8D%83%E5%B2%9B%E6%B9%96/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/tags/%E6%97%8C%E5%BE%B7/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/tags/%E5%8F%A4%E7%AB%B9%E5%B1%B1%E6%B0%B4%E9%87%8C/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/tags/%E5%9B%9E%E7%A8%8B/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/tags/%E8%B7%AF%E8%A5%BF%E8%8C%B6%E5%9B%AD/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -187,6 +245,20 @@
   
   <url>
     <loc>https://i98.cc/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://i98.cc/categories/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2023-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
