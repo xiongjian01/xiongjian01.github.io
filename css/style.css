@@ -382,3 +382,57 @@
   #article-container figure.highlight {
     border-radius: 10px;
   }
+
+  /*归档页面css*/
+
+  .article-sort {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .article-sort-item.year {
+    width: calc(100% - 0.5rem);
+    margin: 0.5rem 0.25rem;
+  }
+  .article-sort-item.year {
+    width: 100%;
+    margin: 0.5rem 0;
+    color: var(--anzhiyu-white);
+    background: var(--anzhiyu-theme)!important;
+    border-radius: 10px;
+  }
+
+  .article-sort-item.year {
+    font-size: 1.43em;
+  }
+
+  .article-sort-item:not(.year):not(#fc-state):not(#fc-more) {
+    width: calc(50% - 0.5rem);
+    margin: 0.3rem 0.25rem;
+  }
+
+  .article-sort-item {
+    width: 100%;
+    padding: 8px;
+    margin: 0.3rem 0;
+    background: #f7f9fe;
+    border-radius: 8px;
+  }
+
+  .article-sort-item-img {
+    height: 100px;
+    width: 140px;
+    border-radius: 8px;
+  }
+
+  .article-sort-title {
+    margin: 0 0.25rem;
+  }
+  .article-sort-title {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
