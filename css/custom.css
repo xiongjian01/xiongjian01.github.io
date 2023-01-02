@@ -1,4 +1,9 @@
 /*页面*/
+/* 翻页按钮居中 */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
 /*页脚css*/
 #footer-wrap {
   color: var(--anzhiyu-fontcolor)
@@ -313,6 +318,22 @@ img.footer_mini_logo:hover {
 .card-info-avatar .author-status-box:hover .author-status span {
   width: 105px;
   margin-left: 4px;
+}
+
+#aside-content .card-info #card-info-btn {
+  height: 40px;
+  width: 100%;
+  border-radius: 20px !important;
+  justify-content: center;
+  padding: 20px 12px;
+  background: var(--anzhiyu-theme);
+  border-radius: 12px;
+  color: var(--anzhiyu-white);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  transition: all .3s ease 0s;
+  cursor: pointer;
 }
 
   /*加载头像*/

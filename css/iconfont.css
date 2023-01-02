@@ -158,3 +158,74 @@
   .icon-occ:before {
     content: "\e66b";
   }
+
+/*社交图标*/
+
+@font-face {
+  font-family: "iconfont"; /* Project id 2897765 */
+  /* Color fonts */
+  src: 
+       url('//at.alicdn.com/t/c/font_2897765_amkilo5qth.woff2?t=1672235937950') format('woff2'),
+       url('//at.alicdn.com/t/c/font_2897765_amkilo5qth.woff?t=1672235937950') format('woff'),
+       url('//at.alicdn.com/t/c/font_2897765_amkilo5qth.ttf?t=1672235937950') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 30px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-social-weibo:before {
+  content: "\e621";
+}
+
+.icon-fengche:before {
+  content: "\e610";
+}
+
+.icon-icon-mail:before {
+  content: "\e664";
+}
+
+.icon-dice:before {
+  content: "\ef94";
+}
+
+.icon-QQ:before {
+  content: "\e73e";
+}
+
+.icon-icon_bilibili:before {
+  content: "\e601";
+}
+
+.icon-youxiang:before {
+  content: "\e6cb";
+}
+
+.icon-fenlei:before {
+  content: "\e640";
+}
+
+.icon-cc:before {
+  content: "\e600";
+}
+
+.icon-chrome:before {
+  content: "\ea09";
+}
+
+.icon-a-7:before {
+  content: "\e917";
+}
+
+svg.icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

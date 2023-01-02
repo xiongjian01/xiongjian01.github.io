@@ -1874,37 +1874,34 @@ figure.highlight pre .javascript .function {
   padding-bottom: 20px;
   padding-left: 20px;
   font-size: 1.72em;
+/*
+    &:before
+      position: absolute
+      top: calc(((100% - 36px) / 2))
+      left: -9px
+      z-index: 1
+      width: w = 10px
+      height: h = w
+      border: .5 * w solid $light-blue
+      border-radius: w
+      background: var(--card-bg)
+      content: ''
+      line-height: h
+      transition: all .2s ease-in-out
+    
+    &:after
+      position: absolute
+      bottom: 0
+      left: 0
+      z-index: 0
+      width: 2px
+      height: 1.5em
+      background: lighten($light-blue, 20)
+      content: ''
+    */
 }
 .article-sort-title:hover:before {
   border-color: var(--pseudo-hover);
-}
-.article-sort-title:before {
-  position: absolute;
-  top: calc(((100% - 36px) / 2));
-  left: -9px;
-  z-index: 1;
-  width: 10px;
-  height: 10px;
-  border: 5px solid #49b1f5;
-  border-radius: 10px;
-  background: var(--card-bg);
-  content: '';
-  line-height: 10px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.article-sort-title:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  width: 2px;
-  height: 1.5em;
-  background: #aadafa;
-  content: '';
 }
 .article-sort-item {
   position: relative;
@@ -1926,24 +1923,22 @@ figure.highlight pre .javascript .function {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+/*
+    &:before
+      $w = 6px
+      position: absolute
+      left: calc(-20px - 17px)
+      width: w = $w
+      height: h = w
+      border: .5 * w solid $light-blue
+      border-radius: w
+      background: var(--card-bg)
+      content: ''
+      transition: all .2s ease-in-out
+    */
 }
 .article-sort-item:hover:before {
   border-color: var(--pseudo-hover);
-}
-.article-sort-item:before {
-  position: absolute;
-  left: calc(-20px - 17px);
-  width: 6px;
-  height: 6px;
-  border: 3px solid #49b1f5;
-  border-radius: 6px;
-  background: var(--card-bg);
-  content: '';
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 .article-sort-item.no-article-cover {
   height: 80px;
