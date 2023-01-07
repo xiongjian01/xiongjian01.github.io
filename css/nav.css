@@ -1,3 +1,30 @@
+/*hotkey 图标*/
+
+#nav-right {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  margin-right: 1.5rem;
+}
+
+.nav-button {
+  cursor: url(/img/x2.cur),auto;
+}
+
+#nav .site-page {
+  padding-bottom: 0;
+}
+#nav .site-page {
+  position: relative;
+  padding-bottom: 6px;
+  font-size: .78em;
+  cursor: pointer;
+}
+#nav a {
+  border-radius: 8px;
+}
+
+/*nav自定义设定*/
 #nav a:hover {
   background: var(--starryif-main);
   transition: 0.3s;
