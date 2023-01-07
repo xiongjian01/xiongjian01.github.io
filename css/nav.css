@@ -245,6 +245,7 @@ ul.menus_item_child {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  font-size: 1.3rem;
 }
 
 #menus > div.menus_items > div > a {

@@ -14,6 +14,18 @@
   div#menus {
     font-family: "ZhuZiAYuanJWD";
   }
+  div#aside-content.aside-content {
+    font-family: "ZhuZiAYuanJWD";
+  }
+  div#category-Bar {
+    font-family: "ZhuZiAYuanJWD";
+  }
+  div#bbTimeList.bbTimeList.container {
+    font-family: "ZhuZiAYuanJWD";
+  }
+  div#essay_page {
+    font-family: "ZhuZiAYuanJWD";
+  }
   h1#site-title {
     font-family: ZhuZiAYuanJWD;
     font-size: 3em !important;
