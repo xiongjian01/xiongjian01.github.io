@@ -36,6 +36,9 @@
   a.article-title {
     font-weight: 700;
   }
+  div.search-dialog {
+    font-family: ZhuZiAYuanJWD;
+  }
   a.article-title,
   a.blog-slider__title,
   a.categoryBar-list-link,
