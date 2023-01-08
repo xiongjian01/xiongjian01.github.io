@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.i98.cc/categories/index.html</loc>
+    <loc>https://blog.i98.cc/tags/index.html</loc>
     
     <lastmod>2023-01-08</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.i98.cc/tags/index.html</loc>
+    <loc>https://blog.i98.cc/categories/index.html</loc>
     
     <lastmod>2023-01-08</lastmod>
     
@@ -22,7 +22,7 @@
   <url>
     <loc>https://blog.i98.cc/posts/20220227.html</loc>
     
-    <lastmod>2023-01-03</lastmod>
+    <lastmod>2023-01-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
