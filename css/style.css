@@ -129,6 +129,12 @@
   #post > div.relatedPosts > div.relatedPosts-list > div {
     border-radius: 12px;
   }
+
+  #pagination .page-number.current {
+    background: var(--anzhiyu-theme) !important;
+    color: var(--anzhiyu-white);
+    border-radius: 8px;
+  }
   
   /* 首页侧栏卡片 */
   #aside-content .card-widget {
@@ -181,6 +187,11 @@
   a.extend.next {
     right: 0;
   }
+
+  .layout > .recent-posts .pagination > *:not(.space):hover {
+    background: var(--anzhiyu-theme);
+    color: var(--btn-color);
+}
   
   /* 分页页面 */
   div#page {
@@ -238,13 +249,14 @@
     text-decoration: none;
   }
 
+  /*
   #article-container a:not([data-fancybox=gallery]):not(.headerlink):not(.cf-friends-link):not(.tag-Link) {
     font-weight: 500;
     border-bottom: solid 2px var(--anzhiyu-lighttext);
     color: var(--anzhiyu-fontcolor);
     padding: 0 0.2em;
     text-decoration: none;
-  }
+  }*/
   
   /*夜间模式伪类遮罩层透明*/
   [data-theme="dark"] #recent-posts > .recent-post-item {
