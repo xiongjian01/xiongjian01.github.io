@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.i98.cc/categories/index.html</loc>
+    
+    <lastmod>2023-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.i98.cc/tags/index.html</loc>
+    
+    <lastmod>2023-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.i98.cc/posts/20220227.html</loc>
     
     <lastmod>2023-01-03</lastmod>
@@ -221,24 +239,6 @@
     <loc>https://blog.i98.cc/posts/3eeb.html</loc>
     
     <lastmod>2022-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.i98.cc/tags/index.html</loc>
-    
-    <lastmod>2022-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.i98.cc/categories/index.html</loc>
-    
-    <lastmod>2022-11-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

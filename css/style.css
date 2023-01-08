@@ -30,9 +30,13 @@
     font-family: ZhuZiAYuanJWD;
     font-size: 3em !important;
   }
+  div#he-plugin-simple {
+    font-family: "ZhuZiAYuanJWD" !important;
+  }
   a.article-title,
   a.blog-slider__title,
   a.categoryBar-list-link,
+  a#site-name,
   h1.post-title {
     font-family: ZhuZiAYuanJWD;
   }
@@ -142,6 +146,35 @@
   /* 标签页面 */
   div#tag {
     background: rgba(255, 255, 255, 0.9);
+  }
+
+  .tag-cloud-list a {
+    border: 1px solid;
+    line-height: 1.5;
+    border-radius: 6px;
+    padding: 5px 15px;
+    font-size: 1.2rem !important;
+    margin: 5px;
+  }
+
+  .layout>div:first-child:not(.recent-posts), .search-dialog {
+    border-radius: 12px;
+    box-shadow: none;
+    border: var(--style-border) !important;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+  }
+
+  .layout>div:first-child:not(.recent-posts) {
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    -ms-flex-item-align: start;
+    padding: 50px 40px !important;
+  }
+
+  .page-title {
+    cursor: default;
+    text-align: center;
   }
   
   /* 分类页面 */

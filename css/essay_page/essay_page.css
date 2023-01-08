@@ -1,5 +1,5 @@
 #page:has(#essay_page) {
-    border: 0;
+    border: 0 !important;
     box-shadow: none !important;
     padding: 0 !important;
     background: transparent !important;
@@ -112,7 +112,7 @@
     display: flex;
     position: relative;
     margin: 8px 0px;
-    border: 1px dashed var(--anzhiyu-theme-op);
+    border: 1px dashed #FFB6C1;
     width: 100%;
   }
   
@@ -316,15 +316,14 @@
     width: 124px;
     border-radius: 20px;
     justify-content: center;
-    background: var(--anzhiyu-card-bg);
-    color: var(--font-color);
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--anzhiyu-white);
     display: flex;
     align-items: center;
     z-index: 1;
-    transition: .3s;
+    transition: all 0.3s ease 0s;
     cursor: pointer;
     backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: blur(20px);
   }
 
   .author-content-item .card-content .banner-button-group .banner-button i {
@@ -359,3 +358,19 @@
   #bber .aplayer .aplayer-lrc p {
     color: var(--anzhiyu-fontcolor);
   }
+
+  hr:before {
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    z-index: 1;
+    color: #FFB6C1;
+    content: none !important;
+    font-size: 20px;
+    line-height: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
