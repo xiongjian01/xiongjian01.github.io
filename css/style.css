@@ -125,6 +125,10 @@
     content: "\A";
     white-space: pre;
   }
+
+  #post > div.relatedPosts > div.relatedPosts-list > div {
+    border-radius: 12px;
+  }
   
   /* 首页侧栏卡片 */
   #aside-content .card-widget {
