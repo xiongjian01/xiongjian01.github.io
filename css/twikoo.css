@@ -1,0 +1,17 @@
+#twikoo .el-textarea textarea {
+    min-height: 120px!important;
+    background-size: 90px;
+}
+
+.tk-input .el-textarea__inner {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.el-textarea__inner {
+    background-image: url(https://cos.19910407.com/source/%E7%9D%81%E7%9C%BC.png)!important;
+}
+
+.el-textarea__inner:focus {
+    background-image: url(https://cos.19910407.com/source/%E9%97%AD%E7%9C%BC.png)!important;
+}
