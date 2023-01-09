@@ -138,6 +138,10 @@
     color: var(--anzhiyu-white);
     border-radius: 8px;
   }
+
+  #pagination.pagination-post {
+    border-radius: 12px;
+  }
   
   /* 首页侧栏卡片 */
   #aside-content .card-widget {
