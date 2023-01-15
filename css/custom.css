@@ -283,6 +283,10 @@ img.footer_mini_logo:hover {
 /* 自定义底部  End */
 
 /*个人资料卡片*/
+#aside-content .card-info .card-info-social-icons {
+  margin: 12px 0 -6px;
+}
+
 .card-widget .author-info-top {
   margin: 15px auto 0;
   display: flex;

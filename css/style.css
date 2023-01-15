@@ -564,3 +564,58 @@
     padding: 0;
     border: none;
   }
+
+  /*自适应设置*/
+  /*bblist*/
+@media screen and (max-width: 768px){
+#bbTimeList {
+    margin: 0.2rem auto 0;
+}
+}
+
+@media screen and (max-width: 1400px){
+#bbTimeList {
+    max-width: calc(100% - 40px);
+}
+}
+
+@media screen and (max-width: 768px) {
+.recent-top-post-group {
+  display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+#category-Bar {
+  margin-top: 25px !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+#category-bar.category-bar {
+  width: 100%;
+  overflow-y: none;
+  background: #f7f9fe !important;
+  border: none !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  #catalog-bar {
+    overflow-y: hidden !important;
+    margin: -1.2rem 0 !important;
+  }
+  }
+
+@media screen and (max-width: 900px){
+  #aside-content {
+    width: 100%;
+    display: none !important;
+}
+}
+
+@media screen and (max-width: 900px){
+#he-plugin-simple[data-v-41ba7e2c] {
+  display: none !important;
+}
+}
