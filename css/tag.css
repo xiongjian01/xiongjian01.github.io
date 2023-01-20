@@ -1,0 +1,103 @@
+/*folding框+计数器，美化*/
+details.folding-tag {
+    background: 0 0!important;
+    transition: border 0s ease!important;
+    border: none!important;
+}
+
+details.folding-tag>summary {
+    border: var(--style-border)!important;
+    background: var(--anzhiyu-card-bg)!important;
+    border-radius: 14px!important;
+    box-shadow: var(--anzhiyu-shadow-border);
+    color: var(--font-color)!important;
+}
+
+details.folding-tag summary:hover {
+    cursor: pointer;
+    background: var(--anzhiyu-main)!important;
+    color: #fff!important;
+    transition: .3s;
+    box-shadow: var(--anzhiyu-shadow-main);
+}
+
+details.folding-tag>summary::marker {
+    color: var(--anzhiyu-main);
+}
+
+details.folding-tag summary:hover::marker {
+    color: #fff;
+}
+
+details.folding-tag[open] {
+    border-radius: 15px!important;
+    border-color: var(--anzhiyu-main)!important;
+    border: 1px solid var(--anzhiyu-main)!important;
+}
+
+details.folding-tag[open]>summary {
+    color: #fff!important;
+    background: var(--anzhiyu-main)!important;
+    border: 1px solid var(--anzhiyu-main)!important;
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+
+#article-container ol li::before, #article-container ul li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #3b70fc;
+    color: #fff;
+    transition: all .3s ease-out 0s;
+}
+
+#article-container ol>li::before {
+    margin-top: 0.65em;
+    width: 1.45em;
+    height: 1.45em;
+    border-radius: 0.725em;
+    content: counter(li);
+    counter-increment: li 1;
+    text-align: center;
+    font-size: .85em;
+    line-height: 1.45em;
+}
+
+details.folding-tag[open]>summary::marker {
+    color: #fff;
+}
+
+#article-container ol li:not(.tab), #article-container ul li:not(.tab) {
+    position: relative;
+    margin: 0.2rem 0;
+}
+
+#article-container ol>li:not(.tab) {
+    padding: 0.2em 0.2em 0.2em 1.8em;
+}
+
+#article-container ol, #article-container ul {
+    margin-top: 0.4rem;
+    padding: 0 0 0 0.8rem;
+    list-style: none;
+    counter-reset: li 0;
+}
+
+span.p.h2, p.p.h2 {
+    border-bottom: none !important;
+}
+span.p.h3, p.p.h3 {
+    font-weight: bold !important;
+}
+
+/*代码背景色*/
+#article-container code {
+    padding: 2px 4px;
+    background: #f47466;
+    color: #fff;
+    border-radius: 4px;
+}
