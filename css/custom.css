@@ -29,6 +29,200 @@
   width: 100%;
   text-align: left !important;
 }
+/*文章页面底部分享*/
+.post-tools {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.post-tools-left {
+  white-space: nowrap;
+  display: flex;
+  text-overflow: ellipsis;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.post-reward {
+  margin-top: 0rem !important;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.post-reward {
+  position: relative;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.post-reward .reward-button {
+  background: #f04a63 !important;
+  color: #fff;
+  padding: 0 !important;
+  width: 133px;
+  height: 40px;
+  line-height: 39px;
+  box-shadow: 0 8px 12px -3px #ee7d7936;
+}
+
+.post-reward:hover .reward-button {
+  color: #fff;
+  background: #425AEF;
+  box-shadow: none;
+}
+
+.post-reward .reward-button {
+  display: inline-block !important;
+  padding: 0.2rem 1.2rem;
+  background: #307af6;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+  border-radius: 5px;
+}
+
+.button--animated {
+  border-radius: 8px !important;
+  transition: 0.3s;
+}
+
+.button--animated {
+  position: relative;
+  z-index: 1;
+  transition: color 1s ease 0s;
+}
+
+.reward-link.mode {
+  background: #57bd6a;
+  color: #fff;
+  padding: 0;
+  width: 173px;
+  height: 40px;
+  line-height: 39px;
+  box-shadow: 0 8px 12px -3px #87ee7936;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.reward-link.mode a {
+  color: #fff;
+}
+
+.share-link {
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.share-qrcode {
+  display: flex;
+  justify-content: center;
+}
+
+.share-button {
+  background: #edf0f7;
+  color: #363636;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 56px;
+  height: 40px;
+}
+
+.share-button i {
+  line-height: 40px;
+}
+
+.share-link.mobile:hover .share-button {
+  background: var(--heo-green);
+  border-color: var(--heo-green);
+  box-shadow: var(--heo-shadow-green);
+  color: var(--heo-white);
+}
+
+.share-main {
+  position: absolute;
+  bottom: 40px;
+  z-index: 100;
+  display: none;
+  padding-bottom: 15px;
+}
+
+.share-main-all {
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--heo-background);
+  animation: donate_effcet 0.3s 0.1s ease both;
+  flex-direction: column;
+  border: var(--style-border-always);
+}
+
+#qrcode {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  background: var(--heo-white);
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: var(--style-border-always);
+}
+
+.share-link.weibo:hover .share-button {
+  background: var(--heo-red);
+  border-color: var(--heo-red);
+  box-shadow: var(--heo-shadow-red);
+}
+
+.share-button:hover {
+  background: var(--heo-theme);
+  border-color: var(--heo-theme);
+  color: var(--heo-white);
+  transition: 0.3s;
+  box-shadow: var(--heo-shadow-blue);
+}
+
+.share-button {
+  background: var(--heo-card-btn-bg);
+  color: var(--heo-fontcolor);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 56px;
+  height: 40px;
+}
+
+.share-button:hover {
+  background: var(--heo-theme);
+  border-color: var(--heo-theme);
+  color: var(--heo-white);
+  transition: 0.3s;
+  box-shadow: var(--heo-shadow-blue);
+}
+
+.share-link:hover .share-main {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* 翻页按钮居中 */
 #pagination {
   width: 100%;
