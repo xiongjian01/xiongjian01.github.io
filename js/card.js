@@ -1,5 +1,5 @@
 //首页大卡片恢复显示
-$(".todayCard").hover(function () {
+$(".topGroup").hover(function () {
 }, function () {
   hoverOnCommentBarrage = false;
   document.getElementById("todayCard").classList.remove('hide');
@@ -11,3 +11,4 @@ $(".todayCard").hover(function () {
       document.getElementById("todayCard").classList.add('hide');
     }
   }
+
