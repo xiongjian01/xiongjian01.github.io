@@ -281,20 +281,6 @@
 
   
   <url>
-    <loc>https://blog.i98.cc/tags/2022/</loc>
-    <lastmod>2023-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.i98.cc/tags/%E9%99%A4%E5%A4%95/</loc>
-    <lastmod>2023-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.i98.cc/tags/2021/</loc>
     <lastmod>2023-01-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -303,6 +289,20 @@
   
   <url>
     <loc>https://blog.i98.cc/tags/%E5%AE%89%E7%99%BE%E6%8B%93%E8%BF%90%E5%8A%A8%E4%BC%9A/</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.i98.cc/tags/2022/</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.i98.cc/tags/%E9%99%A4%E5%A4%95/</loc>
     <lastmod>2023-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -407,6 +407,20 @@
   </url>
   
   <url>
+    <loc>https://blog.i98.cc/tags/%E5%9B%9E%E7%A8%8B/</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.i98.cc/tags/%E8%B7%AF%E8%A5%BF%E8%8C%B6%E5%9B%AD/</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.i98.cc/tags/%E5%8D%81%E4%B8%80/</loc>
     <lastmod>2023-01-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -429,20 +443,6 @@
   
   <url>
     <loc>https://blog.i98.cc/tags/%E4%BD%98%E6%9D%91/</loc>
-    <lastmod>2023-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.i98.cc/tags/%E5%9B%9E%E7%A8%8B/</loc>
-    <lastmod>2023-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.i98.cc/tags/%E8%B7%AF%E8%A5%BF%E8%8C%B6%E5%9B%AD/</loc>
     <lastmod>2023-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -584,14 +584,14 @@
   </url>
   
   <url>
-    <loc>https://blog.i98.cc/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/</loc>
+    <loc>https://blog.i98.cc/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.i98.cc/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://blog.i98.cc/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/%E6%97%85%E8%A1%8C%E6%B8%B8%E8%AE%B0/</loc>
     <lastmod>2023-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
