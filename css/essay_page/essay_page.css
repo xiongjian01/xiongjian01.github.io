@@ -238,8 +238,8 @@
   
   /* 顶部样式 */
   .author-content.author-content-item.essayPage {
-    height: 19rem;
-    background: url(https://img.zhheo.com/i/2022/08/27/6309587509a02.jpg) no-repeat center;
+    height: 380px;
+    background: url(https://pic.rmb.bdstatic.com/bjh/1ef4c5562a25545994587d58a543226b4952.jpeg) no-repeat center;
     background-size: cover;
     color: var(--anzhiyu-white);
     overflow: hidden;

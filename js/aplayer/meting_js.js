@@ -64,7 +64,7 @@ class MetingJSElement extends HTMLElement {
       (this.api =
         this.meta.api ||
         window.meting_api ||
-        "https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r"),
+        "https://meting.i98.cc/api?server=:server&type=:type&id=:id&auth=:auth&r=:r'"),
       this.meta.auto && this._parse_link();
   }
   _parse_link() {

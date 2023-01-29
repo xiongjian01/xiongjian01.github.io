@@ -4,13 +4,17 @@
   font-display: swap;
   font-weight: lighter;
 } */
+
+
 @font-face {
     font-family: ZhuZiAYuanJWD;
     src: url(https://code.oppo.com/content/dam/oppo/common/fonts/font2/new-font/OPPOSansOS2-5000-Regular.woff2);
     font-display: swap;
     font-weight: lighter;
   }
-  
+  div#catalog-list {
+    font-size: 0.9rem !important;
+  }
   div#menus {
     font-family: "ZhuZiAYuanJWD";
   }
@@ -144,15 +148,197 @@
   }
   
   /* 首页侧栏卡片 */
-  #aside-content .card-widget {
-    background: rgba(255, 255, 255, 0.9);
+  @media screen and (max-width: 1300px) {
+  #aside-content>.card-widget:first-child {
+    min-height: 329px;
   }
 
-  #aside-content>.card-info {
-    background: #fff url(https://img02.anzhiy.cn/adminuploads/1/2022/10/26/6358a07bf21fc.webp) top -24% center no-repeat;
+  #aside-content>.card-widget.card-info {
+    background: var(--heo-card-bg);
+    box-shadow: var(--heo-shadow-black);
     position: relative;
   }
-  
+  #aside-content>.card-widget:first-child {
+    transition: 0.3s;
+    border: none;
+    box-shadow: none;
+    background: var(--heo-main);
+    margin-top: 0px;
+  }
+  #aside-content .card-widget {
+    box-shadow: var(--heo-shadow-border);
+    background: var(--heo-card-bg);
+    border: var(--style-border);
+    transition: 0.3s;
+    border-radius: 12px;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+    padding: 1rem 1.2rem;
+  }
+  .card-widget.card-info {
+    padding: 0 !important;
+  }
+  }
+
+  #aside-content>.card-widget.card-info::before {
+    background: linear-gradient(-25deg,var(--anzhiyu-main),#031764,var(--anzhiyu-main),#67044d);
+    background-size: 400%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    animation: gradient 15s ease infinite;
+  }
+
+  #aside-content>div.card-widget.card-info>div.card-content {
+    padding: 1rem 1.2rem;
+    min-height: 330px;
+    position: relative;
+  }
+
+  div#author-info__sayhi {
+    text-align: left;
+    color: var(--heo-white);
+    background: var(--heo-white-op);
+    font-size: 12px;
+    margin-right: auto;
+    padding: 2px 8px;
+    border-radius: 12px;
+    width: fit-content;
+    margin-top: 8px
+  }
+
+  #aside-content .card-info .author-info__name {
+    text-align: left;
+    font-weight: 700;
+    color: #fff;
+    font-size: 28px;
+    line-height: 1.1;
+    margin: 0.8rem 5px 1rem 5px;
+  }
+
+  #aside-content>div.card-widget.card-info>div>div.card-info-avatar.is-center>div.author-info__description {
+    line-height: 1.38;
+    margin: 0.3rem 0;
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .author-info__description2 {
+    line-height: 1.38;
+    margin: 0 5px;
+    text-align: justify;
+    z-index: 2;
+    color: rgba(255,255,255,.8);
+  }
+
+  .author-info__description2 b {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .card-widget.card-info .banner-button-group {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    display: flex;
+  }
+
+  #aside-content .card-info .banner-button {
+    height: 40px;
+    width: 124px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+.card-widget.card-info .banner-button-group .banner-button {
+    padding: 8px 12px;
+    background: var(--heo-white-op);
+    border-radius: 12px;
+    color: var(--heo-white);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .card-widget.card-info .banner-button-group .banner-button i {
+    margin-right: 8px;
+    font-size: 1rem;
+  }
+
+  #aside-content .card-info .card-info-social-icons {
+    margin: 0px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1rem;
+    left: 20px;
+  }
+
+  #aside-content .card-info .card-info-social-icons .social-icon {
+    margin: 0px 8px 0px 0px !important;
+  }
+  #aside-content .card-info .card-info-social-icons .social-icon {
+    margin: 0px 0.5rem;
+    color: var(--heo-fontcolor);
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+
+  .card-widget.card-info .banner-button-group .banner-button:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  #aside-content .card-info .card-info-social-icons i:hover {
+    background: var(--heo-secondbg);
+    transform: scale(0.97);
+    color: var(--heo-main);
+    box-shadow: none;
+  }
+
+  #aside-content .card-info .card-info-social-icons i {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  #aside-content .card-info .card-info-social-icons i {
+    transition: all 0.3s ease 0s;
+    padding: 8px;
+    border-radius: 32px;
+  }
+
+  .card-widget.card-info {
+    padding: 0px !important;
+  }
+
+  #aside-content > .card-widget.card-info::before {
+    background-size: 400%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    content: "";
+    animation: 15s ease 0s infinite normal none running gradient;
+  }
+
   /* 文章页面正文背景 */
   div#post {
     background: rgba(255, 255, 255, 0.9);
@@ -619,3 +805,234 @@
   display: none !important;
 }
 }
+/* copyright版权 */
+
+.post-copyright__author {
+  display: flex;
+  align-items: center;
+}
+
+.post-copyright__original {
+  background: var(--heo-fontcolor);
+  color: var(--heo-card-bg);
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.post-copyright__original:hover {
+  background: var(--heo-main);
+  color: var(--heo-white);
+}
+
+#post .post-copyright .post-copyright-title {
+  padding-left: 0;
+  color: var(--heo-fontcolor);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#post .post-copyright .post-copyright-title:hover {
+  color: var(--heo-lighttext);
+}
+
+#post>div.post-copyright>div.post-copyright__type {
+  line-height: 16px;
+  display: flex;
+  margin-top: 8px;
+}
+
+#post>div.post-copyright>div.post-copyright__type a {
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 16px;
+}
+
+#post .post-copyright .post-copyright-info a {
+  padding: 0;
+  color: var(--heo-fontcolor);
+  font-weight: bold;
+}
+#post .post-copyright .post-copyright-info a {
+  text-decoration: none;
+  word-break: break-word;
+  padding: 0px 4px;
+  border-radius: 4px;
+}
+#post-copyright-url a {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+#post .post-copyright .post-copyright-info {
+  padding-left: 0;
+  color: var(--heo-fontcolor);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+#post>div.post-copyright>div.post-copyright__notice {
+  font-size: 14px;
+  line-height: 1rem;
+  margin: 1rem 0 0 0.2rem;
+}
+
+#post .post-copyright:after {
+  position: absolute;
+  right: 22px;
+  top: -77px;
+  content: '\f25e';
+  font-size: 180px;
+  font-family: 'Font Awesome 5 Brands';
+  color: var(--heo-fontcolor);
+  opacity: 0.4;
+  filter: blur(7px);
+}
+
+#post .post-copyright .post-copyright__notice .post-copyright-info a {
+  padding: 0 4px;
+}
+
+#post .post-copyright .post-copyright-info a {
+  padding: 0;
+  color: var(--heo-fontcolor);
+  font-weight: bold;
+}
+#post .post-copyright .post-copyright-info a {
+  text-decoration: none;
+  word-break: break-word;
+  padding: 0px 4px;
+  border-radius: 4px;
+}
+
+#post .post-copyright {
+  background: var(--heo-card-bg);
+  padding: 1rem 1.3rem;
+  overflow: hidden;
+  border: var(--style-border);
+  border-width: 1px;
+  transition: 0.3s;
+}
+
+#post .post-copyright {
+  position: relative;
+  margin: 2rem 0px 0.5rem;
+  transition: box-shadow 0.3s ease-in-out 0s;
+  border-radius: 12px !important;
+}
+
+#post>div.post-copyright>div.post-copyright__type a:hover {
+  opacity: 1;
+  background: none;
+}
+
+#post .post-copyright .post-copyright-info a:hover {
+  color: var(--heo-lighttext);
+}
+
+#post .post-copyright .post-copyright-title:hover {
+  color: var(--heo-lighttext);
+}
+
+/* 文章标题风车 */
+/* 文章页H1-H6图标样式效果 */
+/* 控制风车转动速度 4s那里可以自己调节快慢 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  -webkit-animation: ccc 4s linear infinite;
+  animation: ccc 4s linear infinite;
+}
+/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
+@-webkit-keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+@keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+/* 设置风车颜色 */
+#content-inner.layout h1::before {
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
+}
+/* s设置风车hover动效 6s那里可以自己调节快慢*/
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: var(--theme-color);
+}
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: var(--theme-color);
+  -webkit-animation: ccc 6s linear infinite;
+  animation: ccc 6s linear infinite;
+}
+
