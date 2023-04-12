@@ -146,6 +146,25 @@
   #pagination.pagination-post {
     border-radius: 12px;
   }
+
+  /*首页文章页布局*/
+  @media screen and (min-width: 1300px) {
+  .layout {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 1rem 1.5rem !important;
+  }
+  }
+  .layout {
+    padding: 1rem 1.5rem;
+  }
+  .layout {
+    display: flex;
+    margin: 0px auto;
+    padding: 2rem 15px;
+    max-width: 1200px
+  }
+ 
   
   /* 首页侧栏卡片 */
   @media screen and (max-width: 1300px) {
@@ -943,6 +962,17 @@
 }
 
 #post .post-copyright .post-copyright-title:hover {
+  color: var(--heo-lighttext);
+}
+
+.share {
+  margin-left: 0.5rem;
+  color: var(--heo-fontcolor);
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.share :hover {
   color: var(--heo-lighttext);
 }
 
