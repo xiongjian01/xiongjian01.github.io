@@ -4517,6 +4517,8 @@ h1.page-title + .tag-cloud-list {
 #page-header.nav-fixed #nav {
   position: fixed;
   z-index: 91;
+  border-bottom: var(--style-border);
+  background: var(--anzhiyu-maskbgdeep);
 }
 #page-header.nav-fixed #nav a,
 #page-header.nav-fixed #nav #site-name,
@@ -4721,8 +4723,8 @@ h1.page-title + .tag-cloud-list {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  border-bottom: var(--style-border);
-  background: var(--anzhiyu-maskbgdeep);
+/*border-bottom: var(--style-border);
+  background: var(--anzhiyu-maskbgdeep);*/
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -8690,33 +8692,116 @@ body[data-type="about"] #web_bg {
   background: var(--anzhiyu-background);
 }
 
-#about-page .author-box {
-  position: relative;
-}
-#about-page .author-box .author-img {
-  margin: auto;
-  border-radius: 50%;
-  overflow: hidden;
-  width: 180px;
-  height: 180px;
-}
-#about-page .author-box .author-img img {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 180px;
-  height: 180px;
+#about-page {
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+  align-items: center;
 }
 
-#about-page .author-box .image-dot {
-  width: 45px;
-  height: 45px;
-  background: #6bdf8f;
+#about-page .author-info {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+#about-page .author-info .author-img {
+  margin: 0 30px;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  background: var(--anzhiyu-secondbg);
+  user-select: none;
+}
+#about-page .author-info .author-img img {
+  border-radius: 200px;
+}
+
+#about-page .author-img::before {
+  content: '';
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  transition: 1s;
+  width: 30px;
+  height: 30px;
+  background: var(--anzhiyu-green);
   position: absolute;
   border-radius: 50%;
-  border: 6px solid var(--anzhiyu-background);
-  top: 50%;
-  left: 50%;
-  transform: translate(35px, 45px);
+  border: 5px solid var(--anzhiyu-background);
+  bottom: 5px;
+  right: 10px;
+  z-index: 2;
+}
+
+img {
+  max-width: 100%;
+  transition: all 0.2s ease 0s;
+  border-style: none;
+}
+
+#about-page .author-tag-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#about-page .author-tag-right .author-tag:first-child, #about-page .author-tag-right .author-tag:last-child {
+  margin-left: -16px;
+}
+
+#about-page .author-tag-left .author-tag:first-child, #about-page .author-tag-left .author-tag:last-child {
+  margin-right: -16px;
+}
+
+#about-page .author-tag:nth-child(1) {
+  animation-delay: 0s;
+}
+
+#about-page .author-tag:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+#about-page .author-tag:nth-child(3) {
+  animation-delay: 1.2s;
+}
+
+#about-page .author-tag:nth-child(4) {
+  animation-delay: 1.8s;
+}
+
+#about-page .author-tag-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#about-page .author-tag {
+  transform: translate(0, -4px);
+  padding: 1px 8px;
+  background: var(--anzhiyu-card-bg);
+  border: var(--style-border-always);
+  border-radius: 40px;
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: var(--anzhiyu-shadow-lightblack);
+  animation: 6s ease-in-out 0s infinite normal none running floating;
+}
+
+@keyframes floating { 
+  0% {transform: translate(0px, -4px);}
+  50% {transform: translate(0px, 4px);}
+  100% { transform: translate(0px, -4px); }
+}
+
+#about-page .author-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  line-height: 1;
 }
 
 .author-content {
@@ -13693,7 +13778,11 @@ a.categoryButton {
   font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei;
 }
 .categoryButtonText {
-  padding-left: 21px;
+  padding-left: 25px;
+  text-align: left;
+  line-height: 2em;
+  font-weight: 700;
+  font-size: 1.12rem;
 }
 a.categoryButton i {
   font-size: 5rem;
@@ -13738,13 +13827,14 @@ a.categoryButton.green {
 }
 a.categoryButton:after {
   top: 40px;
-  width: 1rem;
-  left: 21px;
+  width: 1.3rem;
+  left: 25px;
   height: 2px;
   background: var(--anzhiyu-white);
   content: "";
   border-radius: 1px;
   position: absolute;
+  transition: .8s;
 }
 
 @media screen and (max-width: 768px) {
@@ -18959,7 +19049,7 @@ div#runtime {
 }
 #workboard img.boardsign {
   width: 100%;
-  max-width: 130px;
+  max-width: 160px;
 }
 @-moz-keyframes flashlight {
   from {
